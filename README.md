@@ -32,7 +32,8 @@ calculateur-imc/
 
 ## Aperçu
 
-*(Capture d'écran à ajouter ici une fois le projet poussé sur GitHub)*
+ ![Aperçu du calculateur d'IMC](capture1.png) 
+  ![Aperçu du calculateur d'IMC](capture2.png) 
 
 ## Auteur
 

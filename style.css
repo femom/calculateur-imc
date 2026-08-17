@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  background: #1f2937;
+  padding: 20px;
+}
+
+.entete {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.entete h1 {
+  font-size: 36px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.sous-titre {
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.carte {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto 24px auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.466);
+  border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.carte h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+thead {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.resultat {
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.maigreur {
+  background-color: #3b82f6;
+}
+
+.normal {
+  background-color: #10b981;
+}
+
+.surpoids {
+  background-color: #f59e0b;
+}
+
+.obesite {
+  background-color: #ef4444;
+}
+
+.pied {
+  text-align: center;
+  color: #6b7280;
+  margin-top: 40px;
+  font-size: 14px;
+}

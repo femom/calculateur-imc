@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreskoCalk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="entete">
+      <h1>FreskoCalk</h1>
+      <p class="sous-titre">Calculator d'IMC</p>
+    </header>
+
+    <main>
+      <section class="carte">
+        <h2>Catégories d'IMC</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Catégorie</th>
+              <th>IMC minimum</th>
+              <th>IMC maximum</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Maigreur</td>
+              <td>0</td>
+              <td>18.4</td>
+            </tr>
+            <tr>
+              <td>Normal</td>
+              <td>18.5</td>
+              <td>24.9</td>
+            </tr>
+            <tr>
+              <td>Surpoids</td>
+              <td>25</td>
+              <td>29.9</td>
+            </tr>
+            <tr>
+              <td>Obésité</td>
+              <td>30</td>
+              <td>et plus</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="carte">
+        <h2>Résultats</h2>
+        <div id="sortie"><!-- le JavaScript écrit ici --></div>
+      </section>
+    </main>
+
+    <footer class="pied">
+      <p>Akieni Academy — Cohorte 2 — 2026</p>
+    </footer>
+
+    <script src="imc.js"></script>
+  </body>
+</html>

@@ -1,3 +1,7 @@
+:root {
+  --bleu: #3b82f6;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -55,8 +59,12 @@ td {
 }
 
 thead {
-  background-color: #3b82f6;
+  background-color: var(--bleu);
   color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
 }
 
 .resultat {
@@ -69,7 +77,7 @@ thead {
 }
 
 .maigreur {
-  background-color: #3b82f6;
+  background-color: var(--bleu);
 }
 
 .normal {
